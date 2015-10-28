@@ -1,0 +1,17 @@
+vagrant@vagrant-ubuntu-trusty-64:~$ apt-cache policy docker-engine
+docker-engine:
+  Installed: (none)
+  Candidate: 1.8.3-0~trusty
+  Version table:
+     1.8.3-0~trusty 0
+        500 https://apt.dockerproject.org/repo/ ubuntu-trusty/main amd64 Packages
+     1.8.2-0~trusty 0
+        500 https://apt.dockerproject.org/repo/ ubuntu-trusty/main amd64 Packages
+     1.8.1-0~trusty 0
+        500 https://apt.dockerproject.org/repo/ ubuntu-trusty/main amd64 Packages
+     1.8.0-0~trusty 0
+        500 https://apt.dockerproject.org/repo/ ubuntu-trusty/main amd64 Packages
+     1.7.1-0~trusty 0
+        500 https://apt.dockerproject.org/repo/ ubuntu-trusty/main amd64 Packages
+     1.7.0-0~trusty 0
+        500 https://apt.dockerproject.org/repo/ ubuntu-trusty/main amd64 Packages

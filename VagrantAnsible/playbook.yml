@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+  - include: software.yml
+
+  - name: build docker images
+    command: sh build-docker-image.sh
+    args:
+      chdir: /vagrant
